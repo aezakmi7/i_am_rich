@@ -7,7 +7,7 @@ class IAmRich extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Image(
-        image: AssetImage('lib/assets/diamond.png'),
+        image: AssetImage('lib/assets/poor.png'),
       ),
     );
   }

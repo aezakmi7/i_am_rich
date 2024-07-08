@@ -13,15 +13,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.cyan[800],
         appBar: AppBar(
           title: const Center(
             child: Text(
-              'I Am Rich',
+              'I Am Poor',
               style: TextStyle(color: Colors.white),
             ),
           ),
-          backgroundColor: Colors.grey[900],
+          backgroundColor: Colors.cyan[400],
         ),
         body: const IAmRich(),
       ),
